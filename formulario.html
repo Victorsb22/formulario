@@ -13,7 +13,17 @@
             <h2 class="title">Envie sua mensagem</h2>
             <form>
                 <input type="text" name="nome" placeholder="Seu nome">
+                <input type="tel" name="telefone" placeholder="Seu número">
                 <input type="email" name="email" placeholder="Seu email">
+                <div class="encontrou">
+                    <h4>Por onde você nos encontrou?</h4>
+                    <select name="select" id="selecao">
+                        <option value="Instagram">Instagram</option>
+                        <option value="Facebook" selected>Facebook</option>
+                        <option value="Whatsapp" selected>Whatsapp</option>
+                        <option value="Outro" selected>Outro</option>
+                    </select>
+                </div>
                 <input type="text" name="subject" placeholder="Assunto">
 
                 <textarea name="mensagem" placeholder="Digite sua mensagem"></textarea>
